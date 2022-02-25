@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: #333333;
+    color:#b0b0b0;
+    font-size: 12px;
+    position: relative;
+    z-index: 30;
+    height: 40px;
+     box-sizing: border-box;
+}
+.nav .left{
+    padding-left: 180px;
+    float: left;
+    width: 820px;
+}
+.nav li{
+    display: inline-block;
+    line-height: 40px;
+    
+}
+.nav li s{
+    padding: 6px;
+    font-weight: 300;
+}
+.nav ul li:hover{
+    color: white;
+}
+.nav .right{
+    float: right;
+    padding-right: 180px;
+}
+.nav .right .g{
+    width: 76px;
+    background-color: #707070;
+    text-align: center;
+}
+.nav .right img{
+    width: 26px;
+    vertical-align: middle;
+}
+
+.nav2 {
+    position: relative;
+    z-index: 20;
+    height: 100px;
+}
+.nav2 img{
+    float: left;
+    width: 62px;
+    margin-top: 22px;
+    padding-right: 132px;
+}
+.nav2 ul{
+    float: left;
+    width: 850px;
+    line-height: 62px;
+    margin: 0;
+    padding: 12px 0 0 18px;
+}
+.nav2 li{
+    display: inline-block;
+    padding: 22px 10px 38px;
+}
+.nav2 li:hover{
+    color: orangered;
+}
+.all{
+    width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav2 input{
+    width: 200px;
+    height: 48px;
+    margin-left: 56px;
+    z-index: 20;
+    outline-color: orangered;
+    margin-top: 28px;
+    border: 1px solid #707070;
+}
+.nav2 input::-webkit-input-placeholder {
+    padding-left: 100px;
+     }
+
+.nav3{
+    background-image: url(../img/phone.jpg);
+    width: 1226px;
+    height: 460px;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: 1226px 460px;
+    margin-top: 18px;
+}
+.nav3 ul{
+    background-color: #707070;
+    width: 190px;
+    height: 460px;
+    opacity: 50%;
+    text-align: left;
+  
+    
+}
+.nav3 li{
+    color: #fff;
+    padding: 12px 20px;
+}
+.nav3 li:hover{
+    background-color: orangered;
+}
+.nav3 .photo1{
+    position: relative;
+    right: 0px; bottom: 200px;
+}
+.nav3 .photo1 img{
+    width: 36px;
+    right: 4px; top: 0px;
+    position: absolute;
+}
+.nav3 .photo2{
+    position: relative;
+    right: 0px; bottom: 150px;
+}
+.nav3 .photo2 img{
+    width: 40px;
+    right: 0px; top: 0px;
+    position: absolute;
+}
+.nav3 .photo3{
+    position: relative;
+    right: 0px; bottom: 100px;
+}
+.nav3 .photo3 img{
+    width: 40px;
+    right: 0px; top: 0px;
+    position: absolute;
+}
