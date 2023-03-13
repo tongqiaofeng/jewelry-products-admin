@@ -4,7 +4,7 @@ export default createStore({
   state: {
     // baseUrl: "http://192.168.0.99:10001",
     // baseUrl: "http://192.168.0.233:10001",
-    baseUrl: "http://cn.api.wistechx.cn:10001",
+    // baseUrl: "http://cn.api.wistechx.cn:10001",
     isLogin: false,
     token: null,
     nick: "", //用户昵称
